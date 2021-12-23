@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:future_jobs/theme.dart';
+import 'package:bwa_future_jobs/theme.dart';
 
 class OnboardingPage extends StatelessWidget {
   @override

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:future_jobs/models/category_model.dart';
-import 'package:future_jobs/pages/category_page.dart';
+import 'package:bwa_future_jobs/models/category_model.dart';
+import 'package:bwa_future_jobs/pages/category_page.dart';
 
 import '../theme.dart';
 

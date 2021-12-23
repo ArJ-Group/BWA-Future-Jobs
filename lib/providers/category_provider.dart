@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:future_jobs/models/category_model.dart';
+import 'package:bwa_future_jobs/models/category_model.dart';
 import 'package:http/http.dart' as http;
 
 class CategoryProvider with ChangeNotifier {

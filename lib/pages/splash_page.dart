@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:future_jobs/theme.dart';
+import 'package:bwa_future_jobs/theme.dart';
 
 class SplashPage extends StatefulWidget {
   @override

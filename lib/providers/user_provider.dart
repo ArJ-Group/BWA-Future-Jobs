@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:future_jobs/models/user_model.dart';
+import 'package:bwa_future_jobs/models/user_model.dart';
 
 class UserProvider with ChangeNotifier {
   UserModel _userModel;

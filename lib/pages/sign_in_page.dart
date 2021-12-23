@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:future_jobs/models/user_model.dart';
-import 'package:future_jobs/providers/auth_provider.dart';
-import 'package:future_jobs/providers/user_provider.dart';
-import 'package:future_jobs/theme.dart';
+import 'package:bwa_future_jobs/models/user_model.dart';
+import 'package:bwa_future_jobs/providers/auth_provider.dart';
+import 'package:bwa_future_jobs/providers/user_provider.dart';
+import 'package:bwa_future_jobs/theme.dart';
 import 'package:provider/provider.dart';
 
 class SignInPage extends StatefulWidget {
@@ -175,7 +175,6 @@ class _SignInPageState extends State<SignInPage> {
 
                     if (userModel == null) {
                       showFlushBar('email atau password salah', context);
-
                     } else {
                       userProvider.userModel = userModel;
 

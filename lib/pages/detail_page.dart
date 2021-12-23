@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:future_jobs/models/job_model.dart';
+import 'package:bwa_future_jobs/models/job_model.dart';
 
 import '../theme.dart';
 
@@ -115,7 +115,8 @@ class _DetailPageState extends State<DetailPage> {
               ),
             ),
             Column(
-              children: widget.jobModel.about.map((e) => detailItem(e)).toList(),
+              children:
+                  widget.jobModel.about.map((e) => detailItem(e)).toList(),
               // [
               //   detailItem(
               //     'Full-Time On Site',
@@ -145,7 +146,9 @@ class _DetailPageState extends State<DetailPage> {
               ),
             ),
             Column(
-              children: widget.jobModel.qualifications.map((e) => detailItem(e)).toList(),
+              children: widget.jobModel.qualifications
+                  .map((e) => detailItem(e))
+                  .toList(),
               // [
               //   detailItem(
               //     'Candidate must possess at least a Bachelor\'s Degree.',
@@ -178,7 +181,9 @@ class _DetailPageState extends State<DetailPage> {
               ),
             ),
             Column(
-              children: widget.jobModel.responsibilities.map((e) => detailItem(e)).toList(),
+              children: widget.jobModel.responsibilities
+                  .map((e) => detailItem(e))
+                  .toList(),
               // [
               //   detailItem(
               //     'Initiate and promote any programs, events, training, or activities.',
