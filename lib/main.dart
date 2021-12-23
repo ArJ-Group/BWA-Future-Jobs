@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:future_jobs/pages/home_page.dart';
-import 'package:future_jobs/pages/login_page.dart';
-import 'package:future_jobs/pages/onboarding_screen.dart';
-import 'package:future_jobs/pages/sign_up_screen.dart';
-import 'package:future_jobs/pages/splash_screen.dart';
+import 'package:bwa_future_jobs/pages/home_page.dart';
+import 'package:bwa_future_jobs/pages/login_page.dart';
+import 'package:bwa_future_jobs/pages/onboarding_screen.dart';
+import 'package:bwa_future_jobs/pages/sign_up_screen.dart';
+import 'package:bwa_future_jobs/pages/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());

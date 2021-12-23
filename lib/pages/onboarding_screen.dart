@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:future_jobs/pages/login_page.dart';
+import 'package:bwa_future_jobs/pages/login_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class OnBoardingScreen extends StatefulWidget {
@@ -86,7 +86,8 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(66))),
                           onPressed: () {
-                            Navigator.of(context).pushNamed(LoginPageScreen.routeName);
+                            Navigator.of(context)
+                                .pushNamed(LoginPageScreen.routeName);
                           },
                           child: Text(
                             'Sign In',

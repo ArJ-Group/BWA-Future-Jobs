@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:future_jobs/theme/home_theme.dart';
-import 'package:future_jobs/theme/login_theme.dart';
-import 'package:future_jobs/widgets/job_card.dart';
+import 'package:bwa_future_jobs/theme/home_theme.dart';
+import 'package:bwa_future_jobs/theme/login_theme.dart';
+import 'package:bwa_future_jobs/widgets/job_card.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePageScreen extends StatelessWidget {
@@ -100,7 +100,9 @@ class HomePageScreen extends StatelessWidget {
                     fontWeight: FontWeight.w400),
               ),
             ),
-            const SizedBox(height: 16,),
+            const SizedBox(
+              height: 16,
+            ),
             Row(
               children: [
                 Padding(

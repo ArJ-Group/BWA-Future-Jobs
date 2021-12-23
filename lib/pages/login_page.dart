@@ -1,7 +1,7 @@
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
-import 'package:future_jobs/pages/sign_up_screen.dart';
-import 'package:future_jobs/theme/login_theme.dart';
+import 'package:bwa_future_jobs/pages/sign_up_screen.dart';
+import 'package:bwa_future_jobs/theme/login_theme.dart';
 
 class LoginPageScreen extends StatefulWidget {
   const LoginPageScreen({Key? key}) : super(key: key);
@@ -134,7 +134,7 @@ class _LoginPageScreenState extends State<LoginPageScreen> {
               Padding(
                 padding: const EdgeInsets.only(top: 20, bottom: 80),
                 child: Center(
-                  child: InkWell(
+                    child: InkWell(
                   onTap: () {
                     Navigator.of(context).pushNamed(SignUpScreen.routeName);
                   },

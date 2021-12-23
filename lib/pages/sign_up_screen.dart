@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:future_jobs/pages/home_page.dart';
-import 'package:future_jobs/pages/login_page.dart';
-import 'package:future_jobs/theme/login_theme.dart';
+import 'package:bwa_future_jobs/pages/home_page.dart';
+import 'package:bwa_future_jobs/pages/login_page.dart';
+import 'package:bwa_future_jobs/theme/login_theme.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({Key? key}) : super(key: key);
